@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<h1>Enter Profile Details</h1>
+    <form method="post" enctype="multipart/form-data" ><!--  enctype="multipart/form-data" . used that that if yoy have pics, videos likethat -->
+        {{ form.as_p }}
+
+        {% csrf_token %}
+        <input type="submit" class="btn btn-primary" value="Submit">
+    </form>
+{% endblock %}
+
