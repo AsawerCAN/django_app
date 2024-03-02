@@ -18,7 +18,9 @@
 ## Work in Progress (WIP):
 - Testing and Deployment
 
-## Installation
-git clone https://github.com/AsawerCAN/django_app.git
-cd django_app
-pip install -r requirements.txt
+## Getting Started
+
+- Clone git repo
+- cd django_app
+- pip install -r requirements.txt
+- Run server: python manage.py runserver
